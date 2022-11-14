@@ -1,9 +1,11 @@
 import React from 'react'
-
+import { useContext } from "react";
+import { LanguageContext } from '../context/Context'
 function Content() {
+    const { language } = useContext(LanguageContext)
   return (
     <>
-    <h1>Hola mundo!</h1>
+    <h1>{language}</h1>
    </>
   )
 }

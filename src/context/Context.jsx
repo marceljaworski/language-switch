@@ -11,6 +11,7 @@ function Context({children}) {
     })
   return (
     <LanguageContext.Provider value={{
+        language: language,
         languages: {languages}
     }}>
         {children}
