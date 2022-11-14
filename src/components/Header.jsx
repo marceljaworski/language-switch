@@ -1,11 +1,11 @@
 import React from 'react'
-import LanguageChosser from './LanguageChosser'
+import LanguageChooser from './LanguageChooser'
 
 function Header() {
   return (
     <div>
         <p>Select your Language</p>
-        <LanguageChosser />
+        <LanguageChooser />
     </div>
   )
 }

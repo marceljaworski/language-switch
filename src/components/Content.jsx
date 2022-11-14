@@ -5,7 +5,7 @@ function Content() {
     const { language } = useContext(LanguageContext)
   return (
     <>
-    <h1>{language}</h1>
+    <h1>{language.hi}</h1>
    </>
   )
 }

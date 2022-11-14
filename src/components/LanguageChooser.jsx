@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useContext } from 'react';
+import { LanguageContext } from '../context/Context';
 
-function LanguageChosser() {
-    const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+function LanguageChooser() {
+    const { chooseLanguage } = useContext(LanguageContext)
+    const handleSelect = (eventKey) => {
+        chooseLanguage(eventKey)
+    };
+
     return (
         <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
             
@@ -18,4 +24,4 @@ function LanguageChosser() {
 }
 
 
-export default LanguageChosser
+export default LanguageChooser
