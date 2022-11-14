@@ -15,7 +15,7 @@ function LanguageChooser() {
             
             <NavDropdown title="Dropdown" id="nav-dropdown">
                 <NavDropdown.Item eventKey="1">Spanisch</NavDropdown.Item>
-                <NavDropdown.Item eventKey="2">Deutsch</NavDropdown.Item>
+                <NavDropdown.Item eventKey="2">DE Deutsch</NavDropdown.Item>
                 <NavDropdown.Item eventKey="3">Englisch</NavDropdown.Item>
                 <NavDropdown.Item eventKey="4">French</NavDropdown.Item>
             </NavDropdown>
