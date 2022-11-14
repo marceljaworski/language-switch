@@ -2,7 +2,9 @@ import React from 'react'
 
 function Content() {
   return (
-    <div>Hola mundo!</div>
+    <>
+    <h1>Hola mundo!</h1>
+   </>
   )
 }
 
