@@ -4,7 +4,6 @@ import LanguageChooser from './LanguageChooser'
 function Header() {
   return (
     <div>
-        <p>Select your Language</p>
         <LanguageChooser />
     </div>
   )

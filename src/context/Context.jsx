@@ -15,7 +15,7 @@ function Context({children}) {
         },
         {
             id: 2,
-            hi: "Hallo Wellt!",
+            hi: "Hallo Welt!",
         },
         {
             id: 3,
