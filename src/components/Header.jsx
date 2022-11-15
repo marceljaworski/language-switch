@@ -1,11 +1,12 @@
 import React from 'react'
 import LanguageChooser from './LanguageChooser'
 
+
 function Header() {
   return (
-    <div>
+    <header>
         <LanguageChooser />
-    </div>
+    </header>
   )
 }
 

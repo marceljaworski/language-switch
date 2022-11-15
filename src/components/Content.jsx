@@ -4,9 +4,9 @@ import { LanguageContext } from '../context/Context'
 function Content() {
     const { language } = useContext(LanguageContext)
   return (
-    <>
-    <h1>{language.hi}</h1>
-   </>
+    <main>
+      <h1>{language.hi}</h1>
+    </main>
   )
 }
 

@@ -10,9 +10,9 @@
 body {
   margin: 0;
   /* display: flex; */
-  /* place-items: center; */
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background: rgb(180,97,58);
-  background: linear-gradient(36deg, rgba(180,97,58,1) 0%, rgba(245,255,0,1) 85%, rgba(245,255,0,1) 100%);
+  background: linear-gradient(30deg, rgba(180,97,58,1) 0%, rgba(245,255,0,1) 85%, rgba(245,255,0,1) 100%);
 }
