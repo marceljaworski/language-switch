@@ -6,6 +6,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useContext } from 'react';
 import { LanguageContext } from '../context/Context';
 
+
+
 function LanguageChooser() {
     const { chooseLanguage } = useContext(LanguageContext)
     const handleSelect = (eventKey) => {
@@ -13,15 +15,14 @@ function LanguageChooser() {
     };
 
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
         <Container>
             <Nav className="me-auto" onSelect={handleSelect}>
               <NavDropdown title="Languages" id="basic-nav-dropdown">
-                <NavDropdown.Item eventKey="1">Spanisch - </NavDropdown.Item>
-                <NavDropdown.Item eventKey="2">Deutsch - </NavDropdown.Item>
-                <NavDropdown.Item eventKey="3">Englisch - </NavDropdown.Item>
+                <NavDropdown.Item eventKey="1">Spanisch</NavDropdown.Item>
+                <NavDropdown.Item eventKey="2">Deutsch</NavDropdown.Item>
+                <NavDropdown.Item eventKey="3">Englisch</NavDropdown.Item>
                 <NavDropdown.Item eventKey="4">French</NavDropdown.Item>
-               
               </NavDropdown>
             </Nav>
           

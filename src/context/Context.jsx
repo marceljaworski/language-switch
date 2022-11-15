@@ -28,7 +28,6 @@ function Context({children}) {
     ])
     
     const chooseLanguage = languageId => {
-        console.log(languageId)
         setLanguage(languages.find(language => language.id === +languageId))
     }
     
